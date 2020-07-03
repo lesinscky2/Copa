@@ -22,6 +22,8 @@
     }
 
     var recuperarEquipesSelecionadas = function () {
+        equipes = [];
+
         var equipesHtml = $(".checkbox-equipe:checked").closest(".equipe");
 
         for (var x = 0; x < equipesHtml.length; x++) {
@@ -59,11 +61,18 @@
         });
     }
 
+    var voltarSelecao = function () {
+
+        $("#voltar-selecao").on("click", function () {
+            $("#resultado").hide();
+            $("#selecao").show();
+        });
+    }
 
     var ativarEventos = function () {
         alterarContagemEquipes();
         gerarCopa();
-
+        voltarSelecao();
     }
 
     return {
