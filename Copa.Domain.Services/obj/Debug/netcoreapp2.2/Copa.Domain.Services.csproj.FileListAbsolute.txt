@@ -1,0 +1,12 @@
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\obj\Debug\netcoreapp2.2\Copa.Domain.Services.csprojAssemblyReference.cache
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\obj\Debug\netcoreapp2.2\Copa.Domain.Services.AssemblyInfoInputs.cache
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\obj\Debug\netcoreapp2.2\Copa.Domain.Services.AssemblyInfo.cs
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\obj\Debug\netcoreapp2.2\Copa.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\bin\Debug\netcoreapp2.2\Copa.Domain.Services.deps.json
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\bin\Debug\netcoreapp2.2\Copa.Domain.Services.dll
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\bin\Debug\netcoreapp2.2\Copa.Domain.Services.pdb
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\bin\Debug\netcoreapp2.2\Copa.Domain.dll
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\bin\Debug\netcoreapp2.2\Copa.Domain.pdb
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\obj\Debug\netcoreapp2.2\Copa.Domain.Services.csproj.CopyComplete
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\obj\Debug\netcoreapp2.2\Copa.Domain.Services.dll
+C:\Users\snisel\source\repos\OpenMarket\Copa.Domain.Services\obj\Debug\netcoreapp2.2\Copa.Domain.Services.pdb

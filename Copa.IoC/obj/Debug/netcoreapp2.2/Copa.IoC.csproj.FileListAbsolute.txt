@@ -1,0 +1,4 @@
+C:\Users\snisel\source\repos\OpenMarket\Copa.IoC\obj\Debug\netcoreapp2.2\Copa.IoC.csprojAssemblyReference.cache
+C:\Users\snisel\source\repos\OpenMarket\Copa.IoC\obj\Debug\netcoreapp2.2\Copa.IoC.AssemblyInfoInputs.cache
+C:\Users\snisel\source\repos\OpenMarket\Copa.IoC\obj\Debug\netcoreapp2.2\Copa.IoC.AssemblyInfo.cs
+C:\Users\snisel\source\repos\OpenMarket\Copa.IoC\obj\Debug\netcoreapp2.2\Copa.IoC.csproj.CoreCompileInputs.cache

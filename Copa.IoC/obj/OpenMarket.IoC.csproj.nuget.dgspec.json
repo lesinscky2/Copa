@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\snisel\\source\\repos\\OpenMarket\\OpenMarket.IoC\\OpenMarket.IoC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\snisel\\source\\repos\\OpenMarket\\OpenMarket.IoC\\OpenMarket.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\snisel\\source\\repos\\OpenMarket\\OpenMarket.IoC\\OpenMarket.IoC.csproj",
+        "projectName": "OpenMarket.IoC",
+        "projectPath": "C:\\Users\\snisel\\source\\repos\\OpenMarket\\OpenMarket.IoC\\OpenMarket.IoC.csproj",
+        "packagesPath": "C:\\Users\\snisel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snisel\\source\\repos\\OpenMarket\\OpenMarket.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "H:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\snisel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\snisel\\source\\repos\\OpenMarket\\Copa.Domain.Services\\Copa.Domain.Services.csproj": {
+                "projectPath": "C:\\Users\\snisel\\source\\repos\\OpenMarket\\Copa.Domain.Services\\Copa.Domain.Services.csproj"
+              },
+              "C:\\Users\\snisel\\source\\repos\\OpenMarket\\Copa.Infra.Data\\Copa.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\snisel\\source\\repos\\OpenMarket\\Copa.Infra.Data\\Copa.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

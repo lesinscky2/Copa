@@ -1,0 +1,109 @@
+﻿@model List<Copa.Domain.Entities.Equipe>
+@using Newtonsoft.Json
+<div id="selecao">
+    <div class="jumbotron jumbotron-fluid banner-superior text-center text-white">
+        <div class="container">
+            <p class="h5">COPA</p>
+            <p class="h2">Fase de Seleção</p>
+            <hr style="background-color: white; width: 15%;" />
+            <p>Selecione 8 equipes que você deseja para a competição e depois pressione o botão GERAR COPA para prosseguir</p>
+
+        </div>
+    </div>
+    <div class="row text-white">
+        <div class="col-sm-3">
+            <p>Selecionados <br /><span id="contagem-equipes">0</span> de 8 equipes</p>
+        </div>
+        <div class="col-sm-6">
+
+        </div>
+        <div class="col-sm-3">
+            <button type="button" id="gerar-copa" class="btn btn-dark btn-block">Gerar Copa</button>
+        </div>
+    </div>
+    <div class="row text-dark">
+        @foreach (var equipe in Model)
+        {
+            <div class="col-md-3">
+                <div class="card equipe" equipe="@JsonConvert.SerializeObject(equipe)" style="margin-bottom: 15px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <input type="checkbox" class="checkbox-equipe" style=" transform: scale(2.5); margin-top: 3vh;">
+                            </div>
+                            <div class="col-sm-8">
+                                <p>@equipe.Nome</p>
+                                <p>@equipe.Sigla</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div id="resultado" style="display: none">
+    <div class="jumbotron jumbotron-fluid banner-superior text-center text-white">
+        <div class="container">
+            <p class="h5">COPA</p>
+            <p class="h2">Resultado Final</p>
+            <hr style="background-color: white; width: 15%;" />
+            <p>Veja o resultado final da Copa de forma simples e rápida</p>
+
+        </div>
+    </div>
+    <div class="card equipe-resultado btn-block" style="margin-bottom: 15px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="h4">1º</p>
+                </div>
+                <div class="col-sm-8">
+                    <p id="equipe-primeiro-lugar"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card equipe-resultado btn-block" style="margin-bottom: 15px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="h4">2º</p>
+                </div>
+                <div class="col-sm-8">
+                    <p id="equipe-segundo-lugar"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+<script src="~/js/equipe/equipe.js"></script>
+<script>
+    $(document).ready(function () {
+        equipe.init();
+    });
+</script>
+
+
+
+<div class="modal fade" id="modalQuantidade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Aviso</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                É permitido inserir apenas e unicamente 8 equipes.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>

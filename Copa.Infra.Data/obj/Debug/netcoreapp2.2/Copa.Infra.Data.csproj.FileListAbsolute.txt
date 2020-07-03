@@ -1,0 +1,4 @@
+C:\Users\snisel\source\repos\OpenMarket\Copa.Infra.Data\obj\Debug\netcoreapp2.2\Copa.Infra.Data.csprojAssemblyReference.cache
+C:\Users\snisel\source\repos\OpenMarket\Copa.Infra.Data\obj\Debug\netcoreapp2.2\Copa.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\snisel\source\repos\OpenMarket\Copa.Infra.Data\obj\Debug\netcoreapp2.2\Copa.Infra.Data.AssemblyInfo.cs
+C:\Users\snisel\source\repos\OpenMarket\Copa.Infra.Data\obj\Debug\netcoreapp2.2\Copa.Infra.Data.csproj.CoreCompileInputs.cache
